@@ -1,16 +1,10 @@
-# 2025-SW-AI-LLM
-
-https://www.notion.so/223ff0f0c4c98005ac0aeac60d9fe902?v=223ff0f0c4c9810795a7000c3da7e52f&source=copy_link
-
-
-# 🤖 LLM-Generated Text Detection
+# LLM-Generated Text Detection
 
 > **생성 AI(LLM)가 작성한 텍스트와 인간이 작성한 텍스트를 판별하는 이진 분류 프로젝트**
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1.2-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/Transformers-4.38.2-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/)
-[![Colab](https://img.shields.io/badge/Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
 ## 1. Problem Overview 📋
 
