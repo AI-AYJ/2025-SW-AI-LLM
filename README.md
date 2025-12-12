@@ -16,7 +16,7 @@
 
 ---
 
-## 2. Approach & Strategy 🧠
+## 2. Approach & Strategy 
 
 ### 2.1 Baseline: TF-IDF + XGBoost
 초기에는 통계적 접근 방식을 시도했으나, 생성 AI 텍스트의 특성(확률적 패턴, 긴 문맥)을 포착하는 데 한계를 확인했습니다.
@@ -61,7 +61,7 @@
 | **Epochs** | 3 |
 
 ---
-## 4. Ensemble Strategy 🤝
+## 4. Ensemble Strategy 
 
 **Soft Voting Ensemble**을 통해 Global 특징과 Local 특징을 결합하였습니다.
 
@@ -107,7 +107,7 @@ pip install transformers==4.38.2 accelerate peft datasets
 
 ---
 
-## 6. Results & Key Takeaways 🏆
+## 6. Results & Key Takeaways 
 
 ### Performance
 * **Rank:** Top 26% (72 / 271 Teams) - *Private Leaderboard*
@@ -121,5 +121,5 @@ pip install transformers==4.38.2 accelerate peft datasets
 
 ---
 
-👉대회 진행하면서 정리해둔 NOTION LINK
+👉 대회 진행하면서 정리해둔 NOTION LINK
 * https://www.notion.so/223ff0f0c4c98005ac0aeac60d9fe902?v=223ff0f0c4c9810795a7000c3da7e52f&source=copy_link
