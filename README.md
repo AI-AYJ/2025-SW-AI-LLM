@@ -110,7 +110,7 @@ pip install transformers==4.38.2 accelerate peft datasets
 ## 6. Results & Key Takeaways 🏆
 
 ### Performance
-* **Rank:** Top 26% (72 / 271 Teams) - *Public Leaderboard*
+* **Rank:** Top 26% (72 / 271 Teams) - *Private Leaderboard*
 * **Metric:** ROC-AUC
 
 ### Insights
