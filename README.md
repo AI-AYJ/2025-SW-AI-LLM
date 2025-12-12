@@ -67,7 +67,6 @@ https://www.notion.so/223ff0f0c4c98005ac0aeac60d9fe902?v=223ff0f0c4c9810795a7000
 | **Epochs** | 3 |
 
 ---
-
 ## 4. Ensemble Strategy 🤝
 
 **Soft Voting Ensemble**을 통해 Global 특징과 Local 특징을 결합하였습니다.
@@ -81,6 +80,15 @@ graph LR
     D --> F{Soft Voting}
     E --> F
     F --> G[Final Prediction]
+```
+
+### Ensemble Logic
+| Model | Viewpoint | Inductive Bias |
+| :--- | :--- | :--- |
+| **KoBigBird** | Macro (거시적) | 문서 전체 구조, 긴 호흡의 서술 패턴 |
+| **KoELECTRA** | Micro (미시적) | 토큰 단위의 자연스러움, 국소적 이상치 |
+
+$$\text{Final Probability} = \frac{\text{Prob}_{\text{BigBird}} + \text{Prob}_{\text{Electra}}}{2}$$
 
 ---
 
@@ -101,12 +109,8 @@ pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 \
 
 # Model Requirements
 pip install transformers==4.38.2 accelerate peft datasets
+```
 
----
-
-### 6. Results & Key Takeaways
-
-```markdown
 ---
 
 ## 6. Results & Key Takeaways 🏆
