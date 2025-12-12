@@ -114,7 +114,7 @@ pip install transformers==4.38.2 accelerate peft datasets
 * **Metric:** ROC-AUC
 
 ### Insights
-1.  **Pattern over Meaning:** 생성 AI 판별은 텍스트의 의미를 이해하는 것보다 **생성 패턴(Generation Artifacts)**을 인식하는 것이 중요합니다.
+1.  **Pattern over Meaning:** 생성 AI 판별은 텍스트의 의미를 이해하는 것보다 생성 패턴(Generation Artifacts)을 인식하는 것이 중요합니다.
 2.  **Length Matters:** 긴 문서에서는 512 토큰을 넘어서는 정보를 처리하는 Long-sequence 모델(BigBird)이 유의미한 성능 향상을 가져왔습니다.
 3.  **Synergy of Views:** 거시적 관점(BigBird)과 미시적 관점(ELECTRA)을 결합한 앙상블 전략이 단일 모델보다 효과적이었습니다.
 4.  **Regression Framing:** Classification 문제를 Regression으로 접근하여 Logit 값을 활용한 것이 AUC 지표 학습에 안정적이었습니다.
