@@ -124,3 +124,8 @@ pip install transformers==4.38.2 accelerate peft datasets
 2.  **Length Matters:** 긴 문서에서는 512 토큰을 넘어서는 정보를 처리하는 Long-sequence 모델(BigBird)이 유의미한 성능 향상을 가져왔습니다.
 3.  **Synergy of Views:** 거시적 관점(BigBird)과 미시적 관점(ELECTRA)을 결합한 앙상블 전략이 단일 모델보다 효과적이었습니다.
 4.  **Regression Framing:** Classification 문제를 Regression으로 접근하여 Logit 값을 활용한 것이 AUC 지표 학습에 안정적이었습니다.
+
+---
+
+👉대회 진행하면서 정리해둔 NOTION LINK
+https://www.notion.so/223ff0f0c4c98005ac0aeac60d9fe902?v=223ff0f0c4c9810795a7000c3da7e52f&source=copy_link
