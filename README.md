@@ -33,11 +33,11 @@
 
 ---
 
-## 3. Model Architecture 🏗️
+## 3. Model Architecture 
 
 서로 다른 Inductive Bias를 가진 두 가지 모델을 사용하여 앙상블 효과를 극대화했습니다.
 
-### 🅰️ Model 1: KoBigBird (Global Context)
+###  Model 1: KoBigBird (Global Context)
 * **Role:** Long-Sequence Modeling (문서 전체의 구조 및 흐름 파악)
 * **Why?** 일반 BERT(512 토큰 제한)로는 긴 문서의 후반부 문맥이 손실됨. Sparse Attention을 통해 긴 시퀀스(1024) 처리.
 * **Focus:** 서술 구조, 반복 패턴, 전역적(Global) 특징
@@ -49,7 +49,7 @@
 | **Epochs** | 3 |
 | **Learning Rate** | 2e-5 |
 
-### 🅱️ Model 2: KoELECTRA (Local Pattern)
+###  Model 2: KoELECTRA (Local Pattern)
 * **Role:** Token-level Discrimination (국소적 이상 패턴 감지)
 * **Why?** ELECTRA는 "이 토큰이 자연스러운가?"를 판별하도록 학습됨. AI 텍스트 특유의 어색한 연결이나 확률 분포 포착에 유리.
 * **Focus:** 짧은 문맥에서의 정밀한 판별, 국소적(Local) 특징
