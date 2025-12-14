@@ -86,7 +86,7 @@ $$\text{Final Probability} = \frac{\text{Prob}_{\text{BigBird}} + \text{Prob}_{\
 
 ---
 
-## 5. Experiment Environment 🛠️
+## 5. Experiment Environment 
 
 ### Hardware & Platform
 * **Platform:** Google Colab
